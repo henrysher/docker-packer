@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash -ex
 go get -u github.com/mitchellh/gox
 mkdir -p /root/go/src/github.com/mitchellh/
 git clone https://github.com/mitchellh/packer.git /root/go/src/github.com/mitchellh/packer
